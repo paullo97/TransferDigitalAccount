@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Transfer Digital Account</title>
+    <meta charset="utf-8"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    <script src="js/index.js"></script>
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="background"><img src="assets/background4.png"/></div>
+      <div class="background1"><img src="assets/background6.png"/></div>
+      <div class="container">
+        <center>
+          <div class="middle">
+            <div id="login">
+              <div class="form">
+                <fieldset class="clearfix">
+                  <p><span class="fa fa-user"></span><input type="text"  Placeholder="Username" id="name" required style="text-transform: uppercase;"></p> 
+                  <p><span class="fa fa-lock"></span><input type="password"  Placeholder="Password" id="pass" required></p> 
+                  <div>
+                  <span style="width:50%; text-align:right;  display: inline-block;"><input type="submit" value="Entrar" id="entrar" onclick="Login(document.getElementById('name').value,document.getElementById('pass').value)"></span>
+                  </div>
+                </fieldset>
+                <div class="clearfix"></div>
+              </div>
+              <div class="clearfix"></div>
+            </div> <!-- end login -->
+            <div class="logo">
+            <div class="clearfix"></div>
+            </div>
+          </div>
+        </center>
+      </div>
+    </div>
+  </body>
+</html>
